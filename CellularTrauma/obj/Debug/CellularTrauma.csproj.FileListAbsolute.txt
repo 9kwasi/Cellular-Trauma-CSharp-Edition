@@ -1,0 +1,8 @@
+C:\Users\Jesus\Documents\SharpDevelop Projects\CellularTrauma\CellularTrauma\obj\Debug\CellularTrauma.csprojResolveAssemblyReference.cache
+C:\Users\Jesus\Documents\SharpDevelop Projects\CellularTrauma\CellularTrauma\bin\Debug\CellularTrauma.exe
+C:\Users\Jesus\Documents\SharpDevelop Projects\CellularTrauma\CellularTrauma\bin\Debug\CellularTrauma.pdb
+C:\Users\Jesus\Documents\SharpDevelop Projects\CellularTrauma\CellularTrauma\bin\Debug\MonoGame.Framework.xml
+C:\Users\Jesus\Documents\SharpDevelop Projects\CellularTrauma\CellularTrauma\obj\Debug\CellularTrauma.exe
+C:\Users\Jesus\Documents\SharpDevelop Projects\CellularTrauma\CellularTrauma\obj\Debug\CellularTrauma.pdb
+C:\Users\Jesus\Documents\SharpDevelop Projects\CellularTrauma\CellularTrauma\bin\Debug\Engine.dll
+C:\Users\Jesus\Documents\SharpDevelop Projects\CellularTrauma\CellularTrauma\bin\Debug\Engine.pdb

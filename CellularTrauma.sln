@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CellularTrauma", "CellularTrauma\CellularTrauma.csproj", "{2A7692CA-5130-45E9-B184-361BFC147D52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{F457687E-DCC2-4C4D-88EE-F5B1CDE386FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A7692CA-5130-45E9-B184-361BFC147D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A7692CA-5130-45E9-B184-361BFC147D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A7692CA-5130-45E9-B184-361BFC147D52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A7692CA-5130-45E9-B184-361BFC147D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F457687E-DCC2-4C4D-88EE-F5B1CDE386FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F457687E-DCC2-4C4D-88EE-F5B1CDE386FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F457687E-DCC2-4C4D-88EE-F5B1CDE386FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F457687E-DCC2-4C4D-88EE-F5B1CDE386FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
