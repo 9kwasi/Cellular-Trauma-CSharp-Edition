@@ -3,6 +3,7 @@ using System;
 using System.IO;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Engine;
 
 namespace CellularTrauma
 {
@@ -11,32 +12,40 @@ namespace CellularTrauma
 	/// </summary>
 	public class MenuUI
 	{
-		public Texture2D menubg;
-		public Texture2D button;
-		public MenuUI()
+		public Texture2D texMenuBG;
+		public Texture2D texButton;
+		public Button buttonPlay;
+		public Button buttonCredits;
+		public Button buttonQuit;
+		public GraphicsDevice GraphicsDevice;
+		public MenuUI(GraphicsDevice g)
 		{
-		}
-		
-		public void draw(GraphicsDevice GraphicsDevice){
+			GraphicsDevice = g;
 			FileStream fileStream = new FileStream("../../resources/imgs/menubg.png", FileMode.Open);
-			menubg = Texture2D.FromStream(GraphicsDevice, fileStream);
+			texMenuBG = Texture2D.FromStream(GraphicsDevice, fileStream);
 			fileStream.Dispose();
 			fileStream = new FileStream("../../resources/imgs/button.png", FileMode.Open);
-			button = Texture2D.FromStream(GraphicsDevice, fileStream);
+			texButton = Texture2D.FromStream(GraphicsDevice, fileStream);
 			fileStream.Dispose();
-			
-			Vector2 bgpos = new Vector2(0, 0);
-			Vector2	button0 = new Vector2(1280/2 -100,250);
-			Vector2 button1 = new Vector2(1280/2 - 100, 400);
-			Vector2 button2 = new Vector2(1280/2 - 100,550);
+			buttonPlay = new Button("Play",texButton,1280/2 -100,250);
+			buttonCredits = new Button("Credits",texButton,1280/2 - 100, 400);
+			buttonQuit = new Button("Quit",texButton,1280/2 - 100, 550);
+		}
+		
+		public void draw(){
 			SpriteBatch spriteBatch = new SpriteBatch(GraphicsDevice);
 			spriteBatch.Begin();
-			spriteBatch.Draw(menubg, bgpos, Color.White);
-			spriteBatch.Draw(button, button0,Color.White);
-			spriteBatch.Draw(button,button1,Color.White);
-			spriteBatch.Draw(button,button2,Color.White);
+			spriteBatch.Draw(texMenuBG, new Vector2(0,0), Color.White);
+			buttonPlay.Draw(spriteBatch);
+			buttonCredits.Draw(spriteBatch);
+			buttonQuit.Draw(spriteBatch);
 			spriteBatch.End();
 			   
+		}
+		public void tick(){
+			buttonPlay.tick();
+			buttonCredits.tick();
+			buttonQuit.tick();
 		}
 	}
 	

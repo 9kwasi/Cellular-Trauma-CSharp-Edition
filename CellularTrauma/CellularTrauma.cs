@@ -14,20 +14,25 @@ namespace CellularTrauma
 	public class CellularTrauma : Game
 	{
         GraphicsDeviceManager graphics;
-		States gameState;
+		public static States gameState;
+		public static MouseInput Mouse;
 		public MenuUI menu;
+		public static bool shouldExit;
         public CellularTrauma()
         {
             graphics = new GraphicsDeviceManager(this);
             graphics.PreferredBackBufferHeight = 720;
             graphics.PreferredBackBufferWidth = 1280;
-            menu = new MenuUI();
+            this.IsMouseVisible = true;
             Content.RootDirectory = "resources";
         }
 
         protected override void Initialize()
         {
           gameState = States.MENU;
+          Mouse = new MouseInput();
+          menu = new MenuUI(GraphicsDevice);
+          shouldExit = false;
           base.Initialize();
         }
 
@@ -41,24 +46,22 @@ namespace CellularTrauma
 
         protected override void Update(GameTime gameTime)
         {
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == 
-                ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape)){
+        	if (shouldExit == true){
         		Exit();
         	}
+        	Mouse.Update();
+        	menu.tick();
         	base.Update(gameTime);
         }
 
         protected override void Draw(GameTime gameTime)
         {
         	if (gameState == States.MENU) {
-			menu.draw(GraphicsDevice);
+			menu.draw();
         	}else{
             GraphicsDevice.Clear(Color.CornflowerBlue);
             base.Draw(gameTime);
         }
-        }
-        public void tick() {
-	
         }
     }
 }
