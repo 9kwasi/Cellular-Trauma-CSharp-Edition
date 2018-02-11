@@ -44,7 +44,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Button.cs" />
     <Compile Include="Credits.cs" />
     <Compile Include="Entity.cs" />
     <Compile Include="Fight.cs" />

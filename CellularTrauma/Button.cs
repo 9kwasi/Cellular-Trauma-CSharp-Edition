@@ -15,8 +15,6 @@ namespace CellularTrauma
         int buttonX, buttonY;
         string Name;
         Texture2D Texture;
-        Engine.Button button;
-       	String clicked;
 
         public Button(string name, Texture2D texture, int buttonX, int buttonY)
         {
@@ -24,7 +22,6 @@ namespace CellularTrauma
             this.Texture = texture;
             this.buttonX = buttonX;
             this.buttonY = buttonY;
-            button = new Engine.Button(name,buttonX,buttonY,texture.Width,texture.Height);
         }
 
 
@@ -33,21 +30,35 @@ namespace CellularTrauma
             spriteBatch.Draw(Texture, new Rectangle((int)buttonX, (int)buttonY, Texture.Width, Texture.Height), Color.White);   
         } 
         public void tick(){
-        	clicked = button.tick();
-        	switch (clicked) {
-        		case "Play":
-        			//change gamestate to fight
-        			break;
-        		case "Credits":
-        			//change gamestate to credits
-        			break;
-        		case "Quit":
-        			CellularTrauma.shouldExit = true;
-        			break;
-        		default:
-        			
-        			break;
-        	}
+		        if (enteredButton() && MouseInput.lastMouseState.LeftButton == ButtonState.Released && MouseInput.mouseState.LeftButton == ButtonState.Pressed)
+           		{
+                	switch (Name)
+                	{
+                    	case "Play": 
+                			Console.WriteLine("Clicked "+Name);
+             				break;
+                    	case "Credits":
+                        	Console.WriteLine("Clicked "+Name);
+                        	break;
+                    	case "Quit":
+                    		Console.WriteLine("Clicked "+Name);
+                    		CellularTrauma.shouldExit = true;
+                    		break;
+                    	default:
+                        	break;
+                	}
+            	}
 		}
+        public bool enteredButton()
+        {
+            if (MouseInput.x < buttonX + Texture.Width &&
+                    MouseInput.x > buttonX &&
+                    MouseInput.y < buttonY + Texture.Height &&
+                    MouseInput.y > buttonY)
+            {
+                return true;
+            }
+            return false;
+        }
 	}
 }
