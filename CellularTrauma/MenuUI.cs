@@ -11,9 +11,9 @@ namespace CellularTrauma
 	/// Description of MenuUI.
 	/// </summary>
 	public class MenuUI
-	{
-		public Texture2D texMenuBG;
-		public Texture2D texButton;
+	{	
+		public static Texture2D texMenuBG;
+		public static Texture2D texButton;
 		public Button buttonPlay;
 		public Button buttonCredits;
 		public Button buttonQuit;
@@ -32,8 +32,7 @@ namespace CellularTrauma
 			buttonQuit = new Button("Quit",texButton,1280/2 - 100, 550);
 		}
 		
-		public void draw(){
-			SpriteBatch spriteBatch = new SpriteBatch(GraphicsDevice);
+		public void draw(SpriteBatch spriteBatch){
 			spriteBatch.Begin();
 			spriteBatch.Draw(texMenuBG, new Vector2(0,0), Color.White);
 			buttonPlay.Draw(spriteBatch);
