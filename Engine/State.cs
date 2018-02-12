@@ -6,7 +6,7 @@ namespace Engine
 	/// <summary>
 	/// Description of States.
 	/// </summary>
-	public enum States
+	public enum State
 	{
 		MENU,FIGHT,CREDITS
 	}

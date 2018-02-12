@@ -14,7 +14,8 @@ namespace CellularTrauma
 	public class CellularTrauma : Game
 	{
         GraphicsDeviceManager graphics;
-		public static States gameState;
+        public static SpriteFont font;
+		public static State gameState=State.MENU;
 		public static MouseInput Mouse;
 		public MenuUI menu;
 		public static bool shouldExit;
@@ -29,7 +30,6 @@ namespace CellularTrauma
 
         protected override void Initialize()
         {
-          gameState = States.MENU;
           Mouse = new MouseInput();
           menu = new MenuUI(GraphicsDevice);
           shouldExit = false;
@@ -56,7 +56,7 @@ namespace CellularTrauma
 
         protected override void Draw(GameTime gameTime)
         {
-        	if (gameState == States.MENU) {
+        	if (gameState == State.MENU) {
 			menu.draw();
         	}else{
             GraphicsDevice.Clear(Color.CornflowerBlue);

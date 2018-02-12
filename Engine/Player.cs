@@ -6,9 +6,10 @@ namespace Engine
 	/// <summary>
 	/// Description of Player.
 	/// </summary>
-	public class Player : Entity
+	public class Player 
 	{
-		int health {get;set;}
+		GameCharacter character{get; set;}
+		String userName{get; set;}
 		
 		public Player()
 		{

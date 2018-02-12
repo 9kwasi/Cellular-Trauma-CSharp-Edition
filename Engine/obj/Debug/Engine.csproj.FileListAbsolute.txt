@@ -28,3 +28,18 @@ C:\Users\Jesus\Desktop\SharpDevelop Projects\CellularTrauma\Engine\bin\Debug\Mon
 C:\Users\Jesus\Desktop\SharpDevelop Projects\CellularTrauma\Engine\obj\Debug\Engine.csprojResolveAssemblyReference.cache
 C:\Users\Jesus\Desktop\SharpDevelop Projects\CellularTrauma\Engine\obj\Debug\Engine.dll
 C:\Users\Jesus\Desktop\SharpDevelop Projects\CellularTrauma\Engine\obj\Debug\Engine.pdb
+C:\Users\karna\Desktop\SharpDevelop\gitshit\Engine\obj\Debug\Engine.csprojResolveAssemblyReference.cache
+C:\Users\karna\Desktop\SharpDevelop\gitshit\Engine\obj\Debug\Engine.dll
+C:\Users\karna\Desktop\SharpDevelop\gitshit\Engine\obj\Debug\Engine.pdb
+C:\Users\karna\Desktop\SharpDevelop\gitshit\Engine\bin\Debug\Engine.dll
+C:\Users\karna\Desktop\SharpDevelop\gitshit\Engine\bin\Debug\Engine.pdb
+C:\Users\karna\Desktop\SharpDevelop\gitshit\Engine\bin\Debug\MonoGame.Framework.dll
+C:\Users\karna\Desktop\SharpDevelop\gitshit\Engine\bin\Debug\SharpDX.MediaFoundation.dll
+C:\Users\karna\Desktop\SharpDevelop\gitshit\Engine\bin\Debug\SharpDX.dll
+C:\Users\karna\Desktop\SharpDevelop\gitshit\Engine\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\karna\Desktop\SharpDevelop\gitshit\Engine\bin\Debug\SharpDX.DXGI.dll
+C:\Users\karna\Desktop\SharpDevelop\gitshit\Engine\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\karna\Desktop\SharpDevelop\gitshit\Engine\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\karna\Desktop\SharpDevelop\gitshit\Engine\bin\Debug\SharpDX.XInput.dll
+C:\Users\karna\Desktop\SharpDevelop\gitshit\Engine\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\karna\Desktop\SharpDevelop\gitshit\Engine\bin\Debug\MonoGame.Framework.xml
