@@ -11,7 +11,7 @@ namespace Engine
 	public abstract class GameCharacter
 	{
 		Texture2D portrait{get;set;}
-	
+		
 		//Animation[] anims{get;set;}
 		
 		public Rectangle hitBox{get;set;}
@@ -31,6 +31,9 @@ namespace Engine
 		
 		public GameCharacter()
 		{
+			
 		}
+		
+		
 	}
 }

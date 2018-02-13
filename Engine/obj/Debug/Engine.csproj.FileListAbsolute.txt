@@ -58,3 +58,18 @@ C:\Users\Jesus\Documents\GitHub\Cellular-Trauma-CSharp-Edition\Engine\bin\Debug\
 C:\Users\Jesus\Documents\GitHub\Cellular-Trauma-CSharp-Edition\Engine\obj\Debug\Engine.csprojResolveAssemblyReference.cache
 C:\Users\Jesus\Documents\GitHub\Cellular-Trauma-CSharp-Edition\Engine\obj\Debug\Engine.dll
 C:\Users\Jesus\Documents\GitHub\Cellular-Trauma-CSharp-Edition\Engine\obj\Debug\Engine.pdb
+C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\Engine\bin\Debug\Engine.dll
+C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\Engine\bin\Debug\Engine.pdb
+C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\Engine\bin\Debug\MonoGame.Framework.dll
+C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\Engine\bin\Debug\SharpDX.MediaFoundation.dll
+C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\Engine\bin\Debug\SharpDX.dll
+C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\Engine\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\Engine\bin\Debug\SharpDX.DXGI.dll
+C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\Engine\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\Engine\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\Engine\bin\Debug\SharpDX.XInput.dll
+C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\Engine\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\Engine\bin\Debug\MonoGame.Framework.xml
+C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\Engine\obj\Debug\Engine.csprojResolveAssemblyReference.cache
+C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\Engine\obj\Debug\Engine.dll
+C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\Engine\obj\Debug\Engine.pdb
