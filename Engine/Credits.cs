@@ -1,5 +1,6 @@
 ﻿
 using System;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace Engine
 {
@@ -8,11 +9,19 @@ namespace Engine
 	/// </summary>
 	public class Credits
 	{
+		
 		public Credits()
-		{
-		}
-		public void tick(){
+		{	
 			
 		}
+		public void Tick()
+		{
+			
+		}
+		public void Draw(SpriteBatch s)
+		{
+		
+		}
+		
 	}
 }

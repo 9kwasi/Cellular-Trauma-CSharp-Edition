@@ -12,11 +12,13 @@ namespace Engine
 	public class Level
 	{
 		int xPos = 0;
+		int selection{get;set;}
 		Texture2D texBG;
 		Texture2D texFG;
 		GraphicsDevice GraphicsDevice;
-		public Level(GraphicsDevice g)
+		public Level(int value,GraphicsDevice g)
 		{
+			selection=value;
 			GraphicsDevice = g;
 			FileStream fileStream = new FileStream("../../../CellularTrauma/resources/imgs/levels/treetop/back.png", FileMode.Open);
 			texBG = Texture2D.FromStream(GraphicsDevice, fileStream);
@@ -25,10 +27,12 @@ namespace Engine
 			texFG = Texture2D.FromStream(GraphicsDevice, fileStream);
 			fileStream.Dispose();
 		}
-		public void tick(){
+		public void Tick()
+		{
 			xPos++;
 		}
-		public void render(SpriteBatch spriteBatch) {
+		public void Draw(SpriteBatch spriteBatch) 
+		{
 			// Render the background
 			if (true) {
 				spriteBatch.Begin();
@@ -44,5 +48,6 @@ namespace Engine
 			}
 		
 		}
+		
 	}
 }

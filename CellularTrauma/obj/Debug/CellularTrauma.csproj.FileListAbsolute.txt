@@ -33,3 +33,12 @@ C:\Users\Jesus\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\bi
 C:\Users\Jesus\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\obj\Debug\CellularTrauma.csprojResolveAssemblyReference.cache
 C:\Users\Jesus\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\obj\Debug\CellularTrauma.exe
 C:\Users\Jesus\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\obj\Debug\CellularTrauma.pdb
+C:\Users\Karna.User-PC\csharp\CellularTrauma\bin\Debug\CellularTrauma.exe.config
+C:\Users\Karna.User-PC\csharp\CellularTrauma\bin\Debug\CellularTrauma.exe
+C:\Users\Karna.User-PC\csharp\CellularTrauma\bin\Debug\CellularTrauma.pdb
+C:\Users\Karna.User-PC\csharp\CellularTrauma\bin\Debug\Engine.dll
+C:\Users\Karna.User-PC\csharp\CellularTrauma\bin\Debug\Engine.pdb
+C:\Users\Karna.User-PC\csharp\CellularTrauma\bin\Debug\MonoGame.Framework.xml
+C:\Users\Karna.User-PC\csharp\CellularTrauma\obj\Debug\CellularTrauma.csprojResolveAssemblyReference.cache
+C:\Users\Karna.User-PC\csharp\CellularTrauma\obj\Debug\CellularTrauma.exe
+C:\Users\Karna.User-PC\csharp\CellularTrauma\obj\Debug\CellularTrauma.pdb

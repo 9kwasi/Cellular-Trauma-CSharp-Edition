@@ -19,7 +19,8 @@ namespace Engine
 			x = mouseState.X;
 			y = mouseState.Y;
 		}
-		public void Update(){
+		public void Update()
+		{
 			lastMouseState = mouseState;
 			mouseState = Mouse.GetState();
 			x = mouseState.X;

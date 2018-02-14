@@ -10,6 +10,7 @@ namespace CellularTrauma
 	/// <summary>
 	/// Description of Button.
 	/// </summary>
+	
 	public class Button
     {
         int buttonX, buttonY;
@@ -29,8 +30,10 @@ namespace CellularTrauma
         {	SpriteBatch spriteBatch = s;
             spriteBatch.Draw(Texture, new Rectangle((int)buttonX, (int)buttonY, Texture.Width, Texture.Height), Color.White);   
         } 
-        public void tick(){
-		        if (enteredButton() && MouseInput.lastMouseState.LeftButton == ButtonState.Released && MouseInput.mouseState.LeftButton == ButtonState.Pressed)
+        
+        public void Tick()
+        {
+		        if (EnteredButton() && MouseInput.lastMouseState.LeftButton == ButtonState.Released && MouseInput.mouseState.LeftButton == ButtonState.Pressed)
            		{
                 	switch (Name)
                 	{
@@ -52,7 +55,7 @@ namespace CellularTrauma
                 	}
             	}
 		}
-        public bool enteredButton()
+        public bool EnteredButton()
         {
             if (MouseInput.x < buttonX + Texture.Width &&
                     MouseInput.x > buttonX &&

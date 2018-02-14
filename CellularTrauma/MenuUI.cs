@@ -18,6 +18,7 @@ namespace CellularTrauma
 		public Button buttonCredits;
 		public Button buttonQuit;
 		public GraphicsDevice GraphicsDevice;
+		
 		public MenuUI(GraphicsDevice g)
 		{
 			GraphicsDevice = g;
@@ -32,7 +33,8 @@ namespace CellularTrauma
 			buttonQuit = new Button("Quit",texButton,1280/2 - 100, 550);
 		}
 		
-		public void draw(SpriteBatch spriteBatch){
+		public void Draw(SpriteBatch spriteBatch)
+		{
 			spriteBatch.Begin();
 			spriteBatch.Draw(texMenuBG, new Vector2(0,0), Color.White);
 			buttonPlay.Draw(spriteBatch);
@@ -41,10 +43,11 @@ namespace CellularTrauma
 			spriteBatch.End();
 			   
 		}
-		public void tick(){
-			buttonPlay.tick();
-			buttonCredits.tick();
-			buttonQuit.tick();
+		public void Tick()
+		{
+			buttonPlay.Tick();
+			buttonCredits.Tick();
+			buttonQuit.Tick();
 		}
 	}
 	
