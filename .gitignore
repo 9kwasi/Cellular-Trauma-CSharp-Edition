@@ -1,0 +1,6 @@
+
+*.exe
+*.pdb
+*.dll
+*.cache
+CellularTrauma/obj/Debug/CellularTrauma.csproj.FileListAbsolute.txt
