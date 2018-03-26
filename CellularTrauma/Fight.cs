@@ -1,5 +1,6 @@
 ﻿
 using System;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace CellularTrauma
 {
@@ -13,7 +14,7 @@ namespace CellularTrauma
 			
 		}
 		
-		public void Draw()
+		public void Draw(SpriteBatch spriteBatch)
 		{
 			
 		}

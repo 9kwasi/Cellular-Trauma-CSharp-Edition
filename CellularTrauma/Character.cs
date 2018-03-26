@@ -11,7 +11,7 @@ namespace CellularTrauma
 	{
 		public Character(GraphicsDevice g)
 		{
-			
+				
 		}
 		public void Draw()
 		{

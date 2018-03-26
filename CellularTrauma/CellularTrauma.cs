@@ -82,7 +82,7 @@ namespace CellularTrauma
         	{
         		if(!doneLoading){
         		}else{
-        			level.render(spriteBatch);
+        			Fight.Draw(spriteBatch);
         		}
         	}else if(gameState == State.CREDITS)
         	{
