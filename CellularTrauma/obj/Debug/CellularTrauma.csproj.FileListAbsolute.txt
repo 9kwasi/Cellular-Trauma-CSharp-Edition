@@ -1,53 +1,9 @@
-C:\Users\Jesus\Documents\SharpDevelop Projects\CellularTrauma\CellularTrauma\obj\Debug\CellularTrauma.csprojResolveAssemblyReference.cache
-C:\Users\Jesus\Documents\SharpDevelop Projects\CellularTrauma\CellularTrauma\bin\Debug\CellularTrauma.exe
-C:\Users\Jesus\Documents\SharpDevelop Projects\CellularTrauma\CellularTrauma\bin\Debug\CellularTrauma.pdb
-C:\Users\Jesus\Documents\SharpDevelop Projects\CellularTrauma\CellularTrauma\bin\Debug\MonoGame.Framework.xml
-C:\Users\Jesus\Documents\SharpDevelop Projects\CellularTrauma\CellularTrauma\obj\Debug\CellularTrauma.exe
-C:\Users\Jesus\Documents\SharpDevelop Projects\CellularTrauma\CellularTrauma\obj\Debug\CellularTrauma.pdb
-C:\Users\Jesus\Documents\SharpDevelop Projects\CellularTrauma\CellularTrauma\bin\Debug\Engine.dll
-C:\Users\Jesus\Documents\SharpDevelop Projects\CellularTrauma\CellularTrauma\bin\Debug\Engine.pdb
-C:\Users\Jesus\Desktop\SharpDevelop Projects\CellularTrauma\CellularTrauma\bin\Debug\CellularTrauma.exe
-C:\Users\Jesus\Desktop\SharpDevelop Projects\CellularTrauma\CellularTrauma\bin\Debug\CellularTrauma.pdb
-C:\Users\Jesus\Desktop\SharpDevelop Projects\CellularTrauma\CellularTrauma\bin\Debug\Engine.dll
-C:\Users\Jesus\Desktop\SharpDevelop Projects\CellularTrauma\CellularTrauma\bin\Debug\MonoGame.Framework.dll
-C:\Users\Jesus\Desktop\SharpDevelop Projects\CellularTrauma\CellularTrauma\bin\Debug\Engine.pdb
-C:\Users\Jesus\Desktop\SharpDevelop Projects\CellularTrauma\CellularTrauma\bin\Debug\MonoGame.Framework.xml
-C:\Users\Jesus\Desktop\SharpDevelop Projects\CellularTrauma\CellularTrauma\obj\Debug\CellularTrauma.csprojResolveAssemblyReference.cache
-C:\Users\Jesus\Desktop\SharpDevelop Projects\CellularTrauma\CellularTrauma\obj\Debug\CellularTrauma.exe
-C:\Users\Jesus\Desktop\SharpDevelop Projects\CellularTrauma\CellularTrauma\obj\Debug\CellularTrauma.pdb
-C:\Users\karna\Desktop\SharpDevelop\gitshit\CellularTrauma\bin\Debug\CellularTrauma.exe.config
-C:\Users\karna\Desktop\SharpDevelop\gitshit\CellularTrauma\bin\Debug\CellularTrauma.exe
-C:\Users\karna\Desktop\SharpDevelop\gitshit\CellularTrauma\bin\Debug\CellularTrauma.pdb
-C:\Users\karna\Desktop\SharpDevelop\gitshit\CellularTrauma\bin\Debug\Engine.dll
-C:\Users\karna\Desktop\SharpDevelop\gitshit\CellularTrauma\bin\Debug\Engine.pdb
-C:\Users\karna\Desktop\SharpDevelop\gitshit\CellularTrauma\bin\Debug\MonoGame.Framework.xml
-C:\Users\karna\Desktop\SharpDevelop\gitshit\CellularTrauma\obj\Debug\CellularTrauma.csprojResolveAssemblyReference.cache
-C:\Users\karna\Desktop\SharpDevelop\gitshit\CellularTrauma\obj\Debug\CellularTrauma.exe
-C:\Users\karna\Desktop\SharpDevelop\gitshit\CellularTrauma\obj\Debug\CellularTrauma.pdb
-C:\Users\Jesus\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\bin\Debug\CellularTrauma.exe.config
-C:\Users\Jesus\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\bin\Debug\CellularTrauma.exe
-C:\Users\Jesus\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\bin\Debug\CellularTrauma.pdb
-C:\Users\Jesus\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\bin\Debug\Engine.dll
-C:\Users\Jesus\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\bin\Debug\Engine.pdb
-C:\Users\Jesus\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\bin\Debug\MonoGame.Framework.xml
-C:\Users\Jesus\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\obj\Debug\CellularTrauma.csprojResolveAssemblyReference.cache
-C:\Users\Jesus\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\obj\Debug\CellularTrauma.exe
-C:\Users\Jesus\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\obj\Debug\CellularTrauma.pdb
-<<<<<<< HEAD
-=======
-C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\obj\Debug\CellularTrauma.csprojResolveAssemblyReference.cache
-C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\obj\Debug\CellularTrauma.exe
-C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\obj\Debug\CellularTrauma.pdb
->>>>>>> c69be534a3a02d325c3df8ece96d4cadaf4cac2c
 C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\bin\Debug\CellularTrauma.exe.config
 C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\bin\Debug\CellularTrauma.exe
 C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\bin\Debug\CellularTrauma.pdb
 C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\bin\Debug\Engine.dll
 C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\bin\Debug\Engine.pdb
 C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\bin\Debug\MonoGame.Framework.xml
-<<<<<<< HEAD
 C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\obj\Debug\CellularTrauma.csprojResolveAssemblyReference.cache
 C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\obj\Debug\CellularTrauma.exe
 C:\Users\General Use\Documents\GitHub\Cellular-Trauma-CSharp-Edition\CellularTrauma\obj\Debug\CellularTrauma.pdb
-=======
->>>>>>> c69be534a3a02d325c3df8ece96d4cadaf4cac2c

@@ -32,7 +32,7 @@ namespace CellularTrauma
 			buttonQuit = new Button("Quit",texButton,1280/2 - 100, 550);
 		}
 		
-		public void draw(SpriteBatch spriteBatch){
+		public void Draw(SpriteBatch spriteBatch){
 			spriteBatch.Begin();
 			spriteBatch.Draw(texMenuBG, new Vector2(0,0), Color.White);
 			buttonPlay.Draw(spriteBatch);
@@ -41,7 +41,7 @@ namespace CellularTrauma
 			spriteBatch.End();
 			   
 		}
-		public void tick(){
+		public void Tick(){
 			buttonPlay.tick();
 			buttonCredits.tick();
 			buttonQuit.tick();

@@ -26,7 +26,7 @@ namespace Engine
 			fileStream.Dispose();
 		}
 		public void tick(){
-			xPos++;
+			;
 		}
 		public void render(SpriteBatch spriteBatch) {
 			// Render the background

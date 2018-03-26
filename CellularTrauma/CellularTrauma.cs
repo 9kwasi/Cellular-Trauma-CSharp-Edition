@@ -3,7 +3,6 @@ using System;
 using System.IO;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
 using Engine;
 
 namespace CellularTrauma
@@ -14,11 +13,11 @@ namespace CellularTrauma
 	public class CellularTrauma : Game
 	{
         GraphicsDeviceManager graphics;
-        public static SpriteFont font;
 		public static State gameState=State.MENU;
 		public static MouseInput Mouse;
 		public Level level;
 		public MenuUI menu;
+		public static bool doneLoading;
 		public static bool shouldExit;
 		public SpriteBatch spriteBatch;
         public CellularTrauma()
@@ -34,7 +33,6 @@ namespace CellularTrauma
         {
           Mouse = new MouseInput();
           menu = new MenuUI(GraphicsDevice);
-          level = new Level(GraphicsDevice);
           shouldExit = false;
           spriteBatch = new SpriteBatch(GraphicsDevice);
           base.Initialize();
@@ -47,19 +45,24 @@ namespace CellularTrauma
         protected override void UnloadContent()
         {
         }
-                protected override void Update(GameTime gameTime)
+        protected override void Update(GameTime gameTime)
         {
         	if (shouldExit == true){
         		Exit();
         	}
         	Mouse.Update();
         	if (gameState == State.MENU)
-        	{	
+        	{
         		menu.tick();
         		
         	}else if(gameState == State.FIGHT)
         	{
+        		if(!doneLoading){
+        			level = new Level(GraphicsDevice);
+        			doneLoading=true;
+        		}else{
         		level.tick();
+        		}
         	}else if(gameState == State.CREDITS)
         	{
         		
@@ -77,8 +80,10 @@ namespace CellularTrauma
 				menu.draw(spriteBatch);
         	}else if(gameState == State.FIGHT)
         	{
-        		level.render(spriteBatch);
-        		Console.WriteLine("Tried to draw");
+        		if(!doneLoading){
+        		}else{
+        			level.render(spriteBatch);
+        		}
         	}else if(gameState == State.CREDITS)
         	{
         		

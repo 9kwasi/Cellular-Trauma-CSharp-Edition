@@ -15,9 +15,6 @@ namespace CellularTrauma
 		int frame{get;set;}
 		int count{get;set;}
 		
-		Vector2 pos;
-		
-		
 		public Animation(Texture2D img1,Texture2D img2,Texture2D img3,Texture2D img4,Texture2D img5,Texture2D img6,Texture2D img7,Texture2D img8,Texture2D img9,int speed)
 		{
 			count=0;

@@ -47,6 +47,8 @@
     <Compile Include="Animation.cs" />
     <Compile Include="Button.cs" />
     <Compile Include="CellularTrauma.cs" />
+    <Compile Include="Character.cs" />
+    <Compile Include="Fight.cs" />
     <Compile Include="MenuUI.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>

@@ -36,6 +36,7 @@ namespace CellularTrauma
                 	{
                     	case "Play": 
                 			Console.WriteLine("Clicked "+Name);
+                			CellularTrauma.doneLoading = false;
                 			CellularTrauma.gameState = State.FIGHT;
                 			MenuUI.texButton.Dispose();
                 			MenuUI.texMenuBG.Dispose();
